@@ -7,6 +7,7 @@ Implemented composer.json to allow for installation via composer.
 
 Add the following to your composer.json
 
+<pre><code>
 {
     "require": { "Wantlet": "dev-master" },
     "repositories": [
@@ -17,16 +18,17 @@ Add the following to your composer.json
         }
     ]
 }
+</code></pre>
 
 After installation, add this to you app/config/config.yml
 
+<pre><code>
 # Doctrine Configuration
 doctrine:
     dbal:
         types:
             point:
-                class:                Wantlet\ORM\PointType
-
+                class:  Wantlet\ORM\PointType
 
     orm:
       auto_generate_proxy_classes: "%kernel.debug%"
@@ -38,3 +40,5 @@ doctrine:
                 numeric_functions:
                   DISTANCE: Wantlet\ORM\Distance
                   POINT_STR: Wantlet\ORM\PointStr
+
+</code></pre>
