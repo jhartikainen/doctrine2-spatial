@@ -1,0 +1,14 @@
+{
+    "name": "Wantlet",
+    "description": "Some spatial data related classes developed for Doctrine 2",
+    "keywords": ["doctrine", "mysql", "spatial"],
+    "type": "doctrine-orm",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3",
+        "doctrine/orm": "~2.2,>=2.2.3"
+    },
+    "autoload": {
+        "psr-0": { "Wantlet\\ORM": "" }
+    }
+}
