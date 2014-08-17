@@ -13,7 +13,7 @@ Add the following to your composer.json
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/daleattree/doctrine2-spatial",
+            "url": "https://github.com/jhartikainen/doctrine2-spatial",
             "comment": "Doctrine Spatial Data Types"
         }
     ]
